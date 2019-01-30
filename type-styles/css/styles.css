@@ -1,0 +1,76 @@
+body {
+    font-family: 'Crimson Text', serif;
+    margin-left: 40px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color:	#808080;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    color: #808080;
+}
+/* #weightNormal {
+    font-weight: normal;
+} */
+
+div {
+    margin-top: 90px;
+}
+
+#weightBold {
+    font-weight: bold;
+}
+
+span {
+    font-size: 24px;
+    color: black;
+}
+
+#styleItalic {
+    font-style: italic;
+}
+
+#spacing3 {
+    letter-spacing: .3em;
+}
+
+#spacing06 {
+    letter-spacing: -.06em;
+}
+
+#decUnderline {
+    text-decoration: underline;
+}
+
+#decLineThrough {
+    text-decoration: line-through;
+}
+
+#decOverline {
+    text-decoration: overline;
+}
+
+#transformLower {
+    text-transform: lowercase;
+}
+
+#transformUpper {
+    text-transform: uppercase;
+}
+
+#transformCap {
+    text-transform: capitalize;
+}  
