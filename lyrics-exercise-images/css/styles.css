@@ -1,0 +1,66 @@
+html{
+    background-image: url("https://i.ytimg.com/vi/imuDWPJPYjQ/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: 1450px 485px;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    color: #5e5656;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+#christina {
+    color: #58668b;
+}
+#bionic {
+    color: #76b4bd;
+}
+h3 {
+    color: #76b4bd;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+body {
+    text-align: center;
+}
+
+
+div {
+    font-family: 'Marck Script', cursive;
+    font-size: 1.3rem;
+}
+
+em {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #5e5656;
+}
+.chorus {
+    color: #58668b;
+}
+.prechorus {
+    color: #2F4F4F;
+    font-family: 'KoHo', sans-serif;
+    font-size: 18px;
+}
+.verse {
+    font-family: 'KoHo', sans-serif;
+    font-size: 18px;
+    color: #668B8B;
+}
+#bridge {
+    color: #008080;
+    font-family: 'KoHo', sans-serif;
+    font-size: 18px;
+}
+
+.babe {
+    font-weight: bolder;
+}
