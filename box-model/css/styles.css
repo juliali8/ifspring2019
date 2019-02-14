@@ -1,0 +1,129 @@
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, p {
+    margin-top: 0;
+}
+
+header {
+    text-align: center;
+    background-image: url("../images/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 480px;
+    padding-top: 163px;
+    box-sizing: border-box;
+}
+
+header h1 {
+    font-size: 80px;
+    margin-bottom: 12.5px;
+}
+
+header h2 {
+    font-size: 30px;
+}
+
+#sectionOne {
+    background-color: rgb(170, 215, 245);
+    height: 714px;
+    box-sizing: border-box;
+    padding-top: 45px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 37px;
+}
+
+#field {
+    float: right;
+    margin-left: 39px;
+    margin-bottom: 23px;
+}
+
+#sectionOne p {
+    /* font-weight: bold; */
+    font-size: 18px;
+    line-height: 1.41;
+    margin-bottom: 16.5px;
+}
+
+#sectionTwo {
+    height: 685px;
+    background-color:  rgb(106, 147, 173);
+    padding-top: 44px;
+    box-sizing: border-box;
+}
+
+.imgAndText {
+    float: left;
+    margin-bottom: 22px;
+}
+
+.imgAndText img {
+    float: left;
+    margin-right: 12px;
+}
+
+.imgAndText h4 {
+    font-size: 20px;
+    padding-top: 3px;
+    margin-bottom: 9px;
+}
+
+.imgAndText p {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+#columnOne {
+    width: 450px;
+}
+
+#columnTwo {
+    margin-left: 30px;
+    width: 450px;
+    display: inline-block;
+}
+
+#sectionThree {
+    background-color: rgb(100, 104, 117);
+    height: 400px;
+    padding-top: 47px;
+    box-sizing: border-box;
+}
+
+#sectionThree p {
+    margin-top: 34px;
+    text-align: center;
+    font-size: 26px;
+    line-height: 1.35;
+}
+
+.centerColumnThree {
+    width: 720px;
+    margin: auto;
+}
+
+.centerColumn {
+    width: 960px;
+    margin: auto;
+}
+
+#copyright p {
+    color: white;
+    padding-top: 44px;
+    font-size: 18px;
+}
+
+#copyright {
+    background-color: rgb(48, 48, 48);
+    height: 105px;
+}
