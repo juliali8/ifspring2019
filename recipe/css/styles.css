@@ -1,0 +1,219 @@
+body {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#titleAndImage {
+    height: 325px;
+    /* margin-bottom: 0; */
+}
+
+h2 {
+    margin: 0;
+}
+
+#mainTitleHeading {
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    background-color: rgba(181,31,9,0.9);
+    color: 	#dfbc5e;
+}
+
+#chinese {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#dabing {
+    height: 175px;
+    display: block;
+    margin: auto;
+}
+
+#description {
+    /* margin-top: 0; */
+    /* background-image: linear-gradient(rgba(181,31,9,1), rgba(181,31,9,0)); */
+    text-align: center;
+}
+
+#doughIngredients {
+    display: block;
+    /* padding-left: 50px;  */
+    margin: auto;
+    width: 100%;
+} 
+
+#flour{
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    vertical-align: top;
+}
+
+#salt {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    vertical-align: top;
+}
+
+#sugar {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    vertical-align: top;
+}
+
+#water {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    vertical-align: top;
+}
+
+#fillingIngredients {
+    display: block;
+    /* padding-left: 50px;  */
+    margin: auto;
+    width: 100%;
+} 
+
+#butter {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    vertical-align: top;
+}
+
+#flour2 {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    vertical-align: top;
+}
+
+#salt2 {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    vertical-align: top;
+}
+
+#sichuan {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    vertical-align: top;
+}
+
+#fillingIngredients2 {
+    display: block;
+    /* padding-left: 50px;  */
+    margin: auto;
+    width: 100%;
+} 
+
+#pepper {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    vertical-align: top;
+}
+
+#scallions {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    vertical-align: top;
+}
+
+.ingredientDescrip {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.ingredientImage {
+    /* margin-left: 15px;  check other ways to shift elements */
+    height: 75px;
+    width: 75px;
+    border-radius: 50%; 
+}
+
+.ingredientImage:active {
+    opacity: 0.5;
+}
+
+
+
+.labelContainer {
+    display: block;
+    /* padding-left: 35px; */
+    padding-left: 50px;
+    margin-bottom: 9px;
+    cursor: pointer;
+    font-size: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 80%
+  }
+
+.labelContainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+.checkmark {
+    display: block;
+    position: absolute;
+    /* top: 3; */
+    left: 30px;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+
+  .labelContainer input:checked ~ .checkmark {
+    background-color: rgba(215,60,55, 0.5);
+  }
+  
+
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .labelContainer input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .labelContainer .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .recipeHeaders {
+      background-color: rgba(238,97,70, 0.95);
+      color: white;
+      padding-top: 17px;
+      padding-bottom: 17px;
+      padding-left: 20px;
+  }
+
+  h4 {
+    padding-left: 20px;
+  }
+
+  
