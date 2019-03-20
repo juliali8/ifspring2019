@@ -1,0 +1,243 @@
+body {
+    font-family: 'Markazi Text', serif;
+    margin: 0;
+    padding: 0;
+}
+
+#titleAndImage {
+    height: 325px;
+}
+
+h2 {
+    margin: 0;
+}
+
+#mainTitleHeading {
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    background-color: rgba(181,31,9,0.9);
+    color: 	#dfbc5e;
+}
+
+#chinese {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#dabing {
+    height: 175px;
+    display: block;
+    margin: auto;
+}
+
+#description {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+#allDough {
+    width: 80%;
+}
+
+#doughIngredients {
+    display: inline-block;
+    width: 49%;
+} 
+
+#flour{
+    text-align: center;
+    vertical-align: top;
+}
+
+#salt {
+    text-align: center;
+    vertical-align: top;
+}
+
+#sugar {
+    text-align: center;
+    vertical-align: top;
+}
+
+#water {
+    text-align: center;
+    vertical-align: top;
+}
+
+#allFilling {
+    width: 90%;
+}
+
+#fillingIngredients {
+    display: inline-block;
+    width: 49%;
+} 
+
+#butter {
+    text-align: center;
+    vertical-align: top;
+}
+
+#flour2 {
+    text-align: center;
+    vertical-align: top;
+}
+
+#salt2 {
+    text-align: center;
+    vertical-align: top;
+}
+
+#sichuan {
+    text-align: center;
+    vertical-align: top;
+}
+
+#pepper {
+    text-align: center;
+    vertical-align: top;
+}
+
+#scallions {
+    text-align: center;
+    vertical-align: top;
+}
+
+ol {
+    padding-inline-start: 0px;
+    list-style-type: none;
+    /* padding-left: 50px; */
+}
+
+.ingredientDescrip {
+    margin-bottom: 45px;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.ingredientDescrip2 {
+    margin-bottom: 30px;
+    font-size: 25px;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+#doughDescrip {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+}
+
+#fillingDescrip {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%; 
+}
+
+.ingredientImage {
+    height: 75px;
+    width: 75px;
+    margin-bottom: 5px;
+    border-radius: 50%; 
+}
+
+.ingredientImageFinish {
+    opacity: 0.5;
+}
+
+.labelContainer {
+    display: block;
+    padding-left: 50px;
+    margin-bottom: 9px;
+    cursor: pointer;
+    font-size: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 70%
+  }
+
+.labelContainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+.checkmark {
+    display: block;
+    position: absolute;
+    /* top: 3; */
+    left: 30px;
+    height: 25px;
+    width: 25px;
+    margin-top: 5px;
+    background-color: #eee;
+  }
+
+  .labelContainer input:checked ~ .checkmark {
+    background-color: rgba(215,60,55, 0.5);
+  }
+  
+
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .labelContainer input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .labelContainer .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .recipeHeaders {
+      background-color: rgba(238,97,70, 0.95);
+      color: white;
+      padding-top: 17px;
+      padding-bottom: 17px;
+      padding-left: 20px;
+  }
+
+  h4 {
+    padding-left: 20px;
+    background-color: rgba(238,97,70, 0.3);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0;
+  }
+  
+  .directionImage {
+      /* text-align: center; */
+    height: 175px;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  li {
+      font-size: 30px;
+  }
+
+.directions {
+    padding-left: 40px;
+}
+
+  
