@@ -19,13 +19,12 @@ h1 {
     color: white;
     font-size: 50px;
     text-align: left;
-    display: inline-block;
 }
 
 h2 {
     color: white;
-    display: inline-block;
     padding-left: 20px;
+    font-size: 30px;
 }
 
 #words {
@@ -38,7 +37,6 @@ h2 {
     }
     h1 {
         font-size: 40px;
-        display: block;
         text-align: left;
         padding-bottom: 0;
         margin-bottom: 0;
@@ -46,8 +44,8 @@ h2 {
     h2 {
         margin-top: 2px;
         padding-top: 0;
-        display: block;
         text-align: left;
+        font-size: 25px;
     }
     #words {
         padding: 5px 0px 0px 50px;
@@ -60,7 +58,6 @@ h2 {
     }
     h1 {
         font-size: 30px;
-        display: block;
         padding-bottom: 0;
         margin-bottom: 0;
         text-align: left;
@@ -69,8 +66,8 @@ h2 {
     h2 {
         margin-top: 2px;
         padding-top: 0;
-        display: block;
         text-align: left;
+        font-size: 15px;
     }
     #words {
         padding: 0px 0px 0px 15px;
