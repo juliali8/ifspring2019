@@ -1,0 +1,77 @@
+body {
+    background-image: url("../images/wizofoz.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Cookie', cursive;
+
+    /* background-size: cover; */
+}
+
+a {
+    position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+}
+
+h1 {
+    color: white;
+    font-size: 75px;
+    width: 500px;
+}
+
+h2 {
+    color: white;
+}
+
+#words {
+    padding: 50px 0px 0px 50px;
+}
+
+@media (max-width: 1100px) {
+    h1 {
+        font-size: 65px;
+        width: 450px;
+    }
+}
+
+@media (max-width: 940px) {
+    body {
+        background-size: 950px 700px;
+    }
+    h1 {
+        font-size: 60px;
+        width: 350px;
+    }
+    #words {
+        padding: 50px 0px 0px 50px;
+    }
+}
+
+/* @media (max-width: 875) {
+    body {
+        background-position: center top;
+    }
+    h1 {
+        font-size: 55px;
+        width: 250px;
+    }
+    #words {
+        padding: 10px 0px 0px 20px;
+    }
+} */
+
+@media (max-width: 675px) {
+    body {
+        background-position: center top;
+    }
+    h1 {
+        font-size: 45px;
+        width: 175px;
+    }
+    #words {
+        padding: 0px 0px 0px 15px;
+    }
+}

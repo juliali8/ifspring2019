@@ -1,0 +1,83 @@
+body {
+    background-image: url("../images/starwars.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+a {
+    position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+}
+
+h1 {
+    color: black;
+    font-size: 50px;
+    margin-bottom: 3px;
+}
+
+h2 {
+    margin-top: 0;
+    color: black;
+}
+
+#words {
+    padding: 10px 0px 0px 50px;
+    width: 400px;
+    text-align: center;
+}
+
+@media (max-width: 1325px) {
+    body {
+        background-size: 1325px 700px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    #words {
+        padding: 10px 0px 0px 50px;
+        width: 400px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 825px) {
+    body {
+        background-position: center top;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    #words {
+        padding: 20px 0px 0px 0px;
+        width: 225px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 775px) {
+    body {
+        background-position: center top;
+        color: white;
+    }
+    h1 {
+        font-size: 30px;
+        color: white;
+    }
+    h2 {
+        font-size: 20px;
+        color: white;
+    }
+    #words {
+        padding: 450px 0px 0px 2px;
+        width: 200px;
+        text-align: center;
+    }
+}
