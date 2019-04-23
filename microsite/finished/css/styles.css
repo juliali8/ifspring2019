@@ -1,0 +1,444 @@
+* {
+    /* font-family: Helvetica, Sans-Serif; */
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+#nav {
+    position:fixed;
+    width: 100%;
+    background-color: black;
+    height: 9vw;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.inline {
+    /* display: inline-block; */
+    font-size: 1.25vw;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    color: white;
+}
+
+#title {
+    font-size: 4vw;
+    padding-top: 30px;
+}
+
+
+
+#name_mag {
+    color: rgb(235, 23, 111);
+}
+
+#name_yel {
+    color: rgb(252, 233, 64);
+}
+
+#name_pink {
+    color: rgb(245, 133, 217);
+}
+
+#name_purp {
+    color: rgb(172, 43, 223);
+}
+
+.link {
+    padding-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* .space {
+    height: 8vw;
+} */
+
+.headings {
+    text-align: center;
+    padding-top: 75px;
+    font-size: 3vw;
+    /* font-weight: bold; */
+    /* text-shadow: 2.5px 2.5px 5px black; */
+}
+
+
+#intro {
+    background-image: url("../images/andyportrait.jpg");
+    /* background-color: rgba(255, 255, 255, 0.4); */
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 800px;
+    padding-top: 11vw;
+}
+
+/* #intro_header {
+    color: rgb(235, 23, 111);
+} */
+
+#intro_content {
+    padding-top: 150px;
+    width: 60%;
+    margin: auto;
+    color: white;
+    font-size: 1.4vw;
+    line-height: 40px;
+    text-align: center;
+    text-shadow: 2.5px 2.5px 5px black;
+}
+
+#early_life {
+    padding-top: 50px;
+    /* padding-bottom: 80px; */
+    /* background-color: rgba(51, 50, 50, 0.2) */
+}
+
+#earlylife_header {
+    color: rgb(172, 43, 223);
+}
+
+#earlylife_content {
+    padding-top: 50px;
+    width: 55%;
+    margin: auto;
+}
+
+#earlylife_content div {
+    padding-bottom: 30px;
+}
+
+ #earlylife_content img {
+    /* display: inline-block; */
+    /* vertical-align: middle; */
+    padding-right: 35px;
+    padding-bottom: 30px;
+    width: 20%;
+    height: 20%;
+    /* float: left;  */
+} 
+
+
+#earlylife_content p {
+    /* display: inline-block; */
+    float: right;
+    width: 75%;
+    font-size: 0.9vw;
+    line-height: 25px;
+    /* padding-left: 20px;  */
+    /* vertical-align: middle;  */
+} 
+
+#art_career {
+    padding-top: 50px;
+}
+
+#artcareer_header {
+    color: rgb(245, 133, 217);
+}
+
+#artcareer_content {
+    padding-top: 50px;
+    width: 55%;
+    margin: auto;
+    font-size: 1vw;
+    line-height: 28px;
+}
+
+#works {
+    padding-top: 50px;
+}
+
+#works_header {
+    color: rgb(252, 233, 64);
+}
+
+#personal_life {
+    padding-top: 50px;
+}
+
+#personallife_header{
+    color: rgb(235, 23, 111);
+}
+
+#personallife_content {
+    padding-top: 50px;
+    width: 60%;
+    margin: auto;
+    font-size: 1vw;
+    line-height: 28px;
+    /* padding-bottom: 30px; */
+}
+
+#works_menu {
+    background-color: black;
+    width: 100%;
+    height: 35px;
+    margin-top: 20px;
+    padding-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.works_inline {
+    /* display: inline-block; */
+    color: white;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+}
+
+#paintings {
+    padding-top: 40px;
+    width: 90%;
+    margin: auto;
+    /* padding-left: 100px; */
+}
+
+#films {
+    padding-top: 40px;
+    width: 90%;
+    margin: auto;
+}
+
+#music {
+    padding-top: 40px;
+    width: 90%;
+    margin: auto;
+}
+
+#books {
+    padding-top: 40px;
+    width: 90%;
+    margin: auto;
+}
+
+#photography {
+    padding-top: 40px;
+    width: 90%;
+    margin: auto;
+}
+
+
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 24%;
+    margin: auto;
+}
+
+#paintings img {
+    width: 95%;
+    height: 95%;
+    margin: auto;
+}
+
+#films img {
+    width: 95%;
+    height: 95%;
+    margin: auto;
+}
+
+#music img {
+    width: 95%;
+    height: 95%;
+    margin: auto;
+}
+
+#books img {
+    width: 95%;
+    height: 95%;
+    margin: auto;
+}
+
+#photography img {
+    width: 95%;
+    height: 95%;
+    margin: auto;
+}
+
+.caption {
+    display: block;
+}
+
+
+#footer {
+    height: 4vw;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    padding-left: 25px;
+    color: white;
+}
+
+#footer p {
+    font-size: 1vw;
+}
+
+
+/* h1 {
+    color: red;
+    font-size: 50px;
+}
+
+div {
+    color: blue;
+} */
+@media (max-width: 1250px) {
+    #earlylife_content {
+        width: 70%;
+        margin: auto;
+    }
+    #earlylife_content p {
+        width: 70%;
+    }
+}
+
+@media (max-width: 1000px) {
+    #nav {
+        height: 16.5vw;
+        display: block;
+    }
+
+    h1 {
+        display: block;
+        padding-bottom: 0;
+    }
+
+    /* #h3links {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: space-evenly;
+    } */
+
+   h3 {
+        text-align: center;
+        justify-content: space-evenly;
+        display: inline-block;
+        margin-top: 0;
+    }
+
+    .inline {
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #title {
+        font-size: 50px;
+    }
+
+    .headings{
+        padding-top: 150px;
+    }
+
+    .link {
+        padding-top: 0px;
+    }
+
+    #intro_content {
+        font-size: 2vw;
+    }
+
+    #earlylife_content p {
+        /* display: inline-block; */
+        font-size: 1.25vw;
+    }
+
+    #artcareer_content {
+        /* display: inline-block; */
+        font-size: 1.25vw;
+    }
+
+    #personallife_content {
+        font-size: 1.25vw;
+    }
+}
+
+@media (max-width: 700px) {
+    #nav {
+        height: 125px;
+    }
+    .inline {
+        font-size: 15px;
+        padding-left: 10px;
+        /* padding-right: px; */
+    }
+
+    #title {
+        font-size: 30px;
+    }
+
+    #earlylife_content {
+        text-align: center;
+    }
+
+    #earlylife_content img {
+        width: 40%;
+        height: 40%;
+    } 
+
+    #earlylife_content p {
+        /* display: inline-block; */
+        width: 70%;
+        font-size: 12px;
+        float: none;
+        margin: auto;
+    }
+
+    #artcareer_content {
+        /* display: inline-block; */
+        font-size: 12px;
+    }
+
+    #personallife_content {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 500px) {
+    #intro_content {
+        padding-top: 150px;
+        width: 80%;
+        margin: auto;
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    #works_menu {
+        font-size: 10px;
+    }
+
+    .headings {
+        font-size: 20px;
+        padding-top: 77px;
+    }
+
+    .caption {
+        font-size: 10px;
+    }
+
+    #earlylife_content {
+        width: 95%;
+    }
+
+    #artcareer_content {
+        width: 80%;
+    }
+
+    #personallife_content {
+        width: 80%;
+        /* padding-bottom: 30px; */
+    }
+}
